@@ -1,0 +1,24 @@
+{
+  "name": "ronald-senokoane-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "playwright test",
+    "test:e2e": "playwright test",
+    "generate:cv": "node scripts/generate-cv.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "eslint": "^9.35.0",
+    "globals": "^16.4.0",
+    "prettier": "^3.9.10",
+    "vite": "^7.1.7"
+  }
+}

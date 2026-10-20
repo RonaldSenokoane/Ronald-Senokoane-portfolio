@@ -1,0 +1,281 @@
+{
+  "profile": {
+    "name": "Ronald Senokoane",
+    "headline": "Junior Full-Stack Software Developer",
+    "location": "South Africa",
+    "email": "senokoaner@gmail.com",
+    "phone": "068 701 2253",
+    "github": "https://github.com/RonaldSenokoane",
+    "linkedin": null,
+    "summary": "Junior Full-Stack Software Developer in South Africa, combining practical web application work with hands-on workplace IT support and administration. Brings a customer-focused perspective shaped by experience in banking and financial services, and is currently studying software development.",
+    "about": [
+      "My path into software development has been shaped by solving practical problems for people. In banking and financial-services roles, I learned to listen carefully, work accurately with sensitive information, and support customers through important decisions.",
+      "At Tech Performance Center, my work combines administrative support with hands-on IT troubleshooting, software installation, and student-record administration. Alongside that experience, I am studying software development and building web applications with JavaScript, Node.js, and Firebase.",
+      "I am looking for a junior software engineering opportunity where I can keep learning, contribute dependable work, and build useful products with a collaborative team."
+    ],
+    "targets": [
+      "Junior Full-Stack Developer",
+      "Software Engineer",
+      "Frontend Developer",
+      "Junior Backend Developer"
+    ]
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Vite", "React Router"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express", "REST APIs"]
+    },
+    {
+      "category": "Data & identity",
+      "items": [
+        "MongoDB",
+        "Mongoose",
+        "Cloud Firestore",
+        "Firebase Authentication",
+        "JWT"
+      ]
+    },
+    {
+      "category": "Tools & delivery",
+      "items": ["Git", "GitHub", "Firebase Hosting", "Cloudinary", "Multer"]
+    },
+    {
+      "category": "Engineering practices",
+      "items": [
+        "Role-based access",
+        "Protected endpoints",
+        "Record management",
+        "IT troubleshooting"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Performance Center",
+      "title": "Administrative Assistant & IT Support",
+      "dates": "October 2025 – October 2026",
+      "details": [
+        "Troubleshoot computers and install software to support day-to-day operations.",
+        "Manage student records and provide related administrative and IT support."
+      ]
+    },
+    {
+      "company": "Old Mutual",
+      "title": "Financial Consultant",
+      "dates": "August 2022 – August 2024",
+      "details": ["Supported customers in a financial-services environment."]
+    },
+    {
+      "company": "African Bank",
+      "title": "Claims / Branch Supervisor / Consultant",
+      "dates": "November 2017 – June 2022",
+      "details": [
+        "Worked across claims, branch supervision, and customer consulting responsibilities."
+      ]
+    },
+    {
+      "company": "Oaksure Financial Services",
+      "title": "Claims / Broker Consultant",
+      "dates": "July 2017 – October 2017",
+      "details": ["Supported claims and broker-consulting work."]
+    },
+    {
+      "company": "Rightsure Insurance Brokers",
+      "title": "Claims / Broker Consultant",
+      "dates": "January 2016 – July 2017",
+      "details": ["Worked in claims and broker consulting."]
+    }
+  ],
+  "education": [
+    {
+      "qualification": "Occupational Certificate in Software Development",
+      "provider": "Tech Performance Center",
+      "dates": "Currently studying",
+      "detail": "NQF Level 5",
+      "status": "In progress"
+    },
+    {
+      "qualification": "Bachelor of Business Administration in Banking",
+      "provider": "Regenesys Business School",
+      "dates": "2021 – 2023",
+      "detail": "",
+      "status": ""
+    },
+    {
+      "qualification": "Regulatory Examination for Representatives (RE5)",
+      "provider": "Moonstone",
+      "dates": "2017",
+      "detail": "",
+      "status": ""
+    },
+    {
+      "qualification": "Wealth Management",
+      "provider": "Ikhwezi Training Institute",
+      "dates": "2017",
+      "detail": "NQF Level 4",
+      "status": ""
+    }
+  ],
+  "projects": [
+    {
+      "slug": "tpc-student-register",
+      "title": "TPC Student Register Management System",
+      "shortTitle": "Student register",
+      "kind": "Workplace software",
+      "status": "Reported in use at Tech Performance Center",
+      "statusTone": "live",
+      "description": "A student-registration and record-management application used in a real training-centre setting.",
+      "context": "Student registration and records need an accessible, central place in the day-to-day work of a training centre.",
+      "role": "Workplace project associated with Tech Performance Center. Individual feature authorship and feature-level testing scope are not fully documented.",
+      "solution": "A browser-based register built with HTML, CSS, and JavaScript, with Firebase Authentication and Cloud Firestore in its stack.",
+      "architecture": "Web client → Firebase Authentication → Cloud Firestore; Firebase Hosting is used for delivery.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Firebase Authentication",
+        "Cloud Firestore",
+        "Firebase Hosting"
+      ],
+      "features": [
+        "Student registration and record management",
+        "Attendance-recording functionality",
+        "Authentication and Firestore access rules"
+      ],
+      "security": "The project information identifies Firebase Authentication and Firestore rules as part of the security approach. Rule effectiveness has not been independently audited here.",
+      "testing": "Feature-level independent test results were not provided; no claim is made that every listed feature has been independently tested.",
+      "deployment": "Firebase Hosting",
+      "outcome": "The register is reported to be in current use at Tech Performance Center. No usage totals or measured impact are claimed.",
+      "challenges": [
+        "Supporting reliable student-record workflows in an operational training-centre context.",
+        "Keeping record access aligned with the intended user roles."
+      ],
+      "future": [
+        "Document and test the complete attendance and access-control flows.",
+        "Review Firestore rules against the centre's confirmed role requirements."
+      ],
+      "repository": "https://github.com/RonaldSenokoane/TPC-student-register-management",
+      "demo": null,
+      "screenshots": [],
+      "evidence": [
+        "The project and current-use status are described by the project owner.",
+        "The repository is associated with Ronald Senokoane; source-specific feature verification remains limited."
+      ],
+      "editorialNotes": [
+        "TODO: Confirm the exact personal implementation scope and independently tested features."
+      ]
+    },
+    {
+      "slug": "devblog",
+      "title": "DevBlog — Developer Publishing Platform",
+      "shortTitle": "DevBlog",
+      "kind": "Full-stack application",
+      "status": "Live demo available",
+      "statusTone": "live",
+      "description": "A full-stack publishing platform for authors to create, manage, and share developer articles.",
+      "context": "Developers need a straightforward way to publish articles and manage their own content.",
+      "role": "Primary repository contributor; Git history identifies Ronald Senokoane as the author of the repository's initial and subsequent commits.",
+      "solution": "A React and Vite frontend communicates with an Express API backed by MongoDB and Mongoose. JWT authentication protects author actions.",
+      "architecture": "React + Vite client → Express REST API → MongoDB/Mongoose; optional image uploads integrate with Multer and Cloudinary.",
+      "technologies": [
+        "React",
+        "Vite",
+        "React Router",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "bcryptjs",
+        "Multer",
+        "Cloudinary"
+      ],
+      "features": [
+        "Account registration and sign-in",
+        "Article creation, reading, updating, and deletion",
+        "Protected author endpoints and article ownership checks",
+        "Image-upload integration with Cloudinary"
+      ],
+      "security": "The project documents JWT-protected author actions and ownership checks. Authentication uses bcryptjs according to the supplied project stack.",
+      "testing": "No comprehensive test results were provided for this portfolio. Features are described from the available project documentation and repository history.",
+      "deployment": "Frontend and backend demos are hosted on Render.",
+      "outcome": "A deployed full-stack demonstration is available. No usage or performance metrics are claimed.",
+      "challenges": [
+        "Keeping author-only actions protected across the frontend and API.",
+        "Connecting optional image uploads to a third-party media service."
+      ],
+      "future": [
+        "Verify and document the production Cloudinary configuration before presenting image uploads as operational.",
+        "Add repeatable automated tests for protected routes and article ownership."
+      ],
+      "repository": "https://github.com/RonaldSenokoane/devblog",
+      "demo": "https://devblog-frontend-jn8u.onrender.com",
+      "api": "https://devblog-95ya.onrender.com",
+      "screenshots": [],
+      "evidence": [
+        "README and repository history describe a React/Vite frontend and Express/MongoDB backend.",
+        "The supplied project notes report earlier production Cloudinary credential errors; whether they are resolved has not been verified."
+      ],
+      "editorialNotes": [
+        "TODO: Re-test production image upload and confirm current Cloudinary status."
+      ]
+    },
+    {
+      "slug": "learnerhub",
+      "title": "Learner Portal / LearnerHub",
+      "shortTitle": "LearnerHub",
+      "kind": "Collaborative learning platform",
+      "status": "Collaborative project",
+      "statusTone": "collaborative",
+      "description": "A learning portal with learner and facilitator experiences, progression activities, and educational games.",
+      "context": "SkillsTrack Training Centre's project brief describes learner goals, tasks, support bookings, and progress being handled in separate documents and messages.",
+      "role": "Contributor. The repository belongs to blessingmanhique12; local Git history includes commits by Ronald Senokoane as well as other contributors. This is not presented as sole authorship.",
+      "solution": "The project combines learner and facilitator interfaces with Firebase Authentication and Firestore-backed data.",
+      "architecture": "Browser interfaces → Firebase Authentication → Cloud Firestore; role-sensitive flows are supported by Firestore rules.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Firebase Authentication",
+        "Cloud Firestore"
+      ],
+      "features": [
+        "Learner and facilitator interfaces",
+        "Role-based access patterns",
+        "Learning progression and activities",
+        "Educational games and Firestore security rules"
+      ],
+      "security": "The repository includes Firestore rules and Firebase Authentication. Production readiness and rule coverage have not been independently audited.",
+      "testing": "No comprehensive test results were provided; not all listed functionality is claimed to be production-ready.",
+      "deployment": "Firebase configuration is present in the repository; current production deployment status has not been confirmed.",
+      "outcome": "A collaborative learning-portal codebase with contributions from multiple authors.",
+      "challenges": [
+        "Supporting separate learner and facilitator workflows.",
+        "Coordinating contributions across a shared repository."
+      ],
+      "future": [
+        "Document individual contribution boundaries and validate the role-based access rules.",
+        "Confirm deployment and test readiness before describing it as production software."
+      ],
+      "repository": "https://github.com/blessingmanhique12/Learner-Portal-Project",
+      "demo": null,
+      "screenshots": [],
+      "evidence": [
+        "The repository remote identifies blessingmanhique12 as its owner.",
+        "Local commit history includes contributions by Ronald Senokoane and other collaborators."
+      ],
+      "editorialNotes": [
+        "TODO: Confirm the specific contribution scope with project collaborators."
+      ]
+    }
+  ]
+}

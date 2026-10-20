@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+*.local
+.env
+.env.*
+!.env.example
+playwright-report/
+test-results/
+coverage/

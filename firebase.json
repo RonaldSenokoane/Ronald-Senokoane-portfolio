@@ -1,0 +1,33 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "package.json",
+      "package-lock.json",
+      "README.md",
+      "eslint.config.js",
+      "playwright.config.js",
+      "e2e/**",
+      "test-results/**",
+      "playwright-report/**"
+    ],
+    "headers": [
+      {
+        "source": "/public/**/*.pdf",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/pdf"
+          },
+          {
+            "key": "Content-Disposition",
+            "value": "attachment"
+          }
+        ]
+      }
+    ]
+  }
+}
