@@ -325,13 +325,18 @@ function renderResume() {
     )
     .join("");
   const education = portfolio.education
-    .map(
-      (item) => `<article class="education-card">
+    .map((item) => {
+      const certificateLink = item.certificateUrl
+        ? `<a class="text-link" href="${escapeHTML(item.certificateUrl)}" target="_blank" rel="noopener noreferrer" download>View certificate ${icon("arrow-up-right", 13)}</a>`
+        : "";
+
+      return `<article class="education-card">
         ${item.status ? `<span class="education-status">${escapeHTML(item.status)}</span>` : ""}
         <h3>${escapeHTML(item.qualification)}</h3><p>${escapeHTML(item.provider)}</p>
         <span class="education-dates">${escapeHTML(item.dates)}${item.detail ? ` · ${escapeHTML(item.detail)}` : ""}</span>
-      </article>`,
-    )
+        ${certificateLink}
+      </article>`;
+    })
     .join("");
   const skills = portfolio.skills
     .map((group) => `<article class="skill-group"><h3>${escapeHTML(group.category)}</h3>${tags(group.items)}</article>`)

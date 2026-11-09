@@ -69,7 +69,7 @@ drawText(`${profile.location}  |  ${profile.email}  |  ${profile.phone}`, {
   size: 9,
   color: muted,
 });
-drawText(profile.github, { size: 9, color: muted });
+drawText(`${profile.github}  |  ${profile.portfolio}`, { size: 9, color: muted });
 y -= 8;
 
 heading("Professional summary");

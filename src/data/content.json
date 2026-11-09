@@ -6,6 +6,7 @@
     "email": "senokoaner@gmail.com",
     "phone": "068 701 2253",
     "github": "https://github.com/RonaldSenokoane",
+    "portfolio": "https://ronald-senokoane-portfolio.web.app",
     "linkedin": null,
     "summary": "Junior Full-Stack Software Developer in South Africa, combining practical web application work with hands-on workplace IT support and administration. Brings a customer-focused perspective shaped by experience in banking and financial services, and is currently studying software development.",
     "about": [
@@ -95,6 +96,14 @@
     }
   ],
   "education": [
+    {
+      "qualification": "Full Stack Web & Software Development Programme",
+      "provider": "Regenesys Digital",
+      "dates": "17 August 2025",
+      "detail": "Certificate of completion",
+      "status": "Completed",
+      "certificateUrl": "./Ronald-FSD-Certificate.pdf"
+    },
     {
       "qualification": "Occupational Certificate in Software Development",
       "provider": "Tech Performance Center",
